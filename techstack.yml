@@ -1,0 +1,849 @@
+repo_name: ishani02/WebGoat
+report_id: f7c7cca02a2e0f4f65e1795f9d02870e
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-09T06:53:48+00:00'
+requested_by: dependabot[bot]
+provider: github
+branch: main
+detected_tools_count: 46
+tools:
+- name: Asciidoctor
+  description: An open source, pure Ruby processor for converting AsciiDoc documents
+    or strings into HTML and other formats
+  website_url: https://asciidoctor.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2924/gvQpykZd_400x400.jpg
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-18 18:21:53.000000000 Z
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ishani02/WebGoat
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/ishani02/WebGoat
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ishani02/WebGoat
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/src/main/resources/db/container/V1__init.sql
+  detection_source: src/main/resources/db/container/V1__init.sql
+  last_updated_by: Nanne Baars
+  last_updated_on: 2019-10-19 15:17:54.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: René Zubcevic
+  last_updated_on: 2023-11-14 09:01:59.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  version: 32.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-23 14:49:02.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-08-24 14:44:07.000000000 Z
+- name: HSQLDB
+  description: Leading SQL relational database software written in Java
+  website_url: http://hsqldb.org
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/6958/yQ4763oZ_400x400.jpg
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: ch.ko123
+  last_updated_on: 2009-10-12 21:06:55.000000000 Z
+- name: migra
+  description: A schema diff tool for PostgreSQL
+  website_url: https://migra.djrobstep.com/
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Nanne Baars
+  last_updated_on: 2023-06-04 09:19:47.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ishani02/WebGoat
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ishani02/WebGoat
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-04 21:40:54.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/src/test/resources/logback-test.xml
+  detection_source: src/test/resources/logback-test.xml
+  last_updated_by: Nanne Baars
+  last_updated_on: 2018-05-22 15:06:03.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ishani02/WebGoat
+  detection_source: Repo Metadata
+- name: cglib:cglib-nodep
+  description: Cglib is a powerful
+  version: 3.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-02 14:06:55.000000000 Z
+- name: com.auth0:java-jwt
+  description: Java implementation of JSON Web Token
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: René Zubcevic
+  last_updated_on: 2023-11-14 09:01:59.000000000 Z
+- name: com.github.tomakehurst:wiremock
+  description: A web service test double for all occasions
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Nanne Baars
+  last_updated_on: 2023-08-08 15:18:22.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: 32.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-23 14:49:02.000000000 Z
+- name: com.sun.xml.bind:jaxb-impl
+  description: JAXB
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Nanne Baars
+  last_updated_on: 2023-08-08 15:18:22.000000000 Z
+- name: com.thoughtworks.xstream:xstream
+  description: XStream is a serialization library from Java objects to XML and back
+  version: 1.4.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: René Zubcevic
+  last_updated_on: 2023-11-14 09:01:59.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data and Code Injection in xstream
+    cve_id: CVE-2019-10173
+    cve_url: https://github.com/advisories/GHSA-hf23-9pf7-388p
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.4.11
+  - name: Command Injection in Xstream
+    cve_id: CVE-2013-7285
+    cve_url: https://github.com/advisories/GHSA-f554-x222-wgf7
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.4.7
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39145
+    cve_url: https://github.com/advisories/GHSA-8jrj-525p-826v
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream can cause Denial of Service via stack overflow
+    cve_id: CVE-2022-41966
+    cve_url: https://github.com/advisories/GHSA-j563-grx4-pjpv
+    detected_date: Dec 29
+    severity: high
+    first_patched: 1.4.20
+  - name: XStream is vulnerable to a Remote Command Execution attack
+    cve_id: CVE-2021-29505
+    cve_url: https://github.com/advisories/GHSA-7chv-rrw6-w6fc
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.17
+  - name: XStream can be used for Remote Code Execution
+    cve_id: CVE-2020-26217
+    cve_url: https://github.com/advisories/GHSA-mw36-7c6c-q4q2
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.14-jdk7
+  - name: XStream can cause a Denial of Service by injecting deeply nested objects
+      raising a stack overflow
+    cve_id: CVE-2022-40151
+    cve_url: https://github.com/advisories/GHSA-f8cc-g7j8-xxpm
+    detected_date: Dec 31
+    severity: high
+    first_patched: 1.4.20
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39154
+    cve_url: https://github.com/advisories/GHSA-6w62-hx7r-mw68
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39153
+    cve_url: https://github.com/advisories/GHSA-2q8x-2p7f-574v
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: A Server-Side Forgery Request can be activated unmarshalling with XStream
+      to access data streams from an arbitrary URL referencing a resource in an intranet
+      or the local host
+    cve_id: CVE-2021-39152
+    cve_url: https://github.com/advisories/GHSA-xw4p-crpj-vjx2
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39151
+    cve_url: https://github.com/advisories/GHSA-hph2-m3g5-xxv4
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: A Server-Side Forgery Request can be activated unmarshalling with XStream
+      to access data streams from an arbitrary URL referencing a resource in an intranet
+      or the local host
+    cve_id: CVE-2021-39150
+    cve_url: https://github.com/advisories/GHSA-cxfm-5m4g-x7xp
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39149
+    cve_url: https://github.com/advisories/GHSA-3ccq-5vw3-2p6x
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39148
+    cve_url: https://github.com/advisories/GHSA-qrx8-8545-4wg2
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39147
+    cve_url: https://github.com/advisories/GHSA-h7v4-7xg3-hxcc
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39146
+    cve_url: https://github.com/advisories/GHSA-p8pq-r894-fm8f
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to a Remote Command Execution attack
+    cve_id: CVE-2021-39144
+    cve_url: https://github.com/advisories/GHSA-j9h8-phrw-h4fh
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39141
+    cve_url: https://github.com/advisories/GHSA-g5w6-mrj7-75h2
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-39139
+    cve_url: https://github.com/advisories/GHSA-64xx-cq4q-mf44
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.4.18
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40153
+    cve_url: https://github.com/advisories/GHSA-fv22-xp26-mm9w
+    detected_date: Sep 21
+    severity: high
+    first_patched: 
+  - name: XStream can cause a Denial of Service.
+    cve_id: CVE-2021-21341
+    cve_url: https://github.com/advisories/GHSA-2p3x-qw9c-25hh
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.16
+  - name: Server-Side Forgery Request can be activated unmarshalling with XStream
+    cve_id: CVE-2020-26258
+    cve_url: https://github.com/advisories/GHSA-4cch-wxpw-8p28
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.15
+  - name: XML External Entity Injection in XStream
+    cve_id: CVE-2016-3674
+    cve_url: https://github.com/advisories/GHSA-rgh3-987h-wpmw
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.9
+  - name: Denial of service in XStream
+    cve_id: CVE-2017-7957
+    cve_url: https://github.com/advisories/GHSA-7hwc-46rm-65jh
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.10
+  - name: Denial of Service by injecting highly recursive collections or maps in XStream
+    cve_id: CVE-2021-43859
+    cve_url: https://github.com/advisories/GHSA-rmr5-cpv2-vgjf
+    detected_date: Feb 1
+    severity: high
+    first_patched: 1.4.19
+  - name: A Server-Side Forgery Request can be activated unmarshalling with XStream
+      to access data streams from an arbitrary URL referencing a resource in an intranet
+      or the local host
+    cve_id: CVE-2021-21349
+    cve_url: https://github.com/advisories/GHSA-f6hm-88x3-mfjv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream is vulnerable to an attack using Regular Expression for a Denial
+      of Service (ReDos)
+    cve_id: CVE-2021-21348
+    cve_url: https://github.com/advisories/GHSA-56p8-3fh9-4cvq
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-21347
+    cve_url: https://github.com/advisories/GHSA-qpfq-ph7r-qv6f
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-21346
+    cve_url: https://github.com/advisories/GHSA-4hrm-m67v-5cxr
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-21344
+    cve_url: https://github.com/advisories/GHSA-59jw-jqf4-3wq3
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream is vulnerable to an Arbitrary File Deletion on the local host when
+      unmarshalling as long as the executing process has sufficient rights
+    cve_id: CVE-2021-21343
+    cve_url: https://github.com/advisories/GHSA-74cv-f58x-f9wf
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-21351
+    cve_url: https://github.com/advisories/GHSA-hrcp-8f3q-4w2c
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream vulnerable to an Arbitrary File Deletion on the local host when
+      unmarshalling
+    cve_id: CVE-2020-26259
+    cve_url: https://github.com/advisories/GHSA-jfvx-7wrx-43fh
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.15
+  - name: XStream is vulnerable to an Arbitrary Code Execution attack
+    cve_id: CVE-2021-21350
+    cve_url: https://github.com/advisories/GHSA-43gc-mjxg-gvrq
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: A Server-Side Forgery Request can be activated unmarshalling with XStream
+      to access data streams from an arbitrary URL referencing a resource in an intranet
+      or the local host
+    cve_id: CVE-2021-21342
+    cve_url: https://github.com/advisories/GHSA-hvv8-336g-rx3m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream can cause a Denial of Service
+    cve_id: CVE-2021-39140
+    cve_url: https://github.com/advisories/GHSA-6wf9-jmg9-vxcc
+    detected_date: Aug 26
+    severity: moderate
+    first_patched: 1.4.18
+  - name: XStream is vulnerable to a Remote Command Execution attack
+    cve_id: CVE-2021-21345
+    cve_url: https://github.com/advisories/GHSA-hwpc-8xqv-jvj4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.4.16
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40152
+    cve_url: https://github.com/advisories/GHSA-3f7h-mf4q-vrm4
+    detected_date: Sep 21
+    severity: low
+    first_patched: 
+  - name: XStream Denial of Service via stack overflow
+    cve_id: CVE-2022-40154
+    cve_url: https://github.com/advisories/GHSA-9fwf-46g9-45rx
+    detected_date: Sep 22
+    severity: low
+    first_patched: 
+  - name: XStream Denial of Service via stack overflow
+    cve_id: CVE-2022-40155
+    cve_url: https://github.com/advisories/GHSA-5hc5-c3m9-8vcj
+    detected_date: Sep 22
+    severity: low
+    first_patched: 
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40156
+    cve_url: https://github.com/advisories/GHSA-4rv7-wj6m-6c6r
+    detected_date: Sep 21
+    severity: low
+    first_patched: 
+  - name: 'Duplicate Advisory: Denial of Service due to parser crash'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-3mq5-fq9h-gj7j
+    detected_date: Sep 21
+    severity: low
+    first_patched: 
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: 2.15.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-04 21:33:27.000000000 Z
+- name: io.jsonwebtoken:jjwt
+  description: 'Java JWT: JSON Web Token for Java and Android'
+  version: 0.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Nanne Baars
+  last_updated_on: 2023-01-04 07:07:23.000000000 Z
+- name: io.rest-assured:rest-assured
+  description: Java DSL for easy testing of REST services
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-02 06:26:26.000000000 Z
+- name: javax.xml.bind:jaxb-api
+  description: JAXB
+  version: 2.3.1
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Nanne Baars
+  last_updated_on: 2023-08-08 15:18:22.000000000 Z
+- name: org.apache.commons:commons-exec
+  description: Apache Commons Exec is a library to reliably execute external processes
+    from within the JVM
+  version: 1.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-04 21:33:27.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-04 21:33:27.000000000 Z
+- name: org.apache.commons:commons-text
+  description: Apache Commons Text is a library focused on algorithms working on strings
+  version: 1.10.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-04 21:33:27.000000000 Z
+- name: org.asciidoctor:asciidoctorj
+  description: AsciidoctorJ provides Java bindings for the Asciidoctor RubyGem
+  version: 2.5.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: René Zubcevic
+  last_updated_on: 2023-11-27 13:35:49.000000000 Z
+- name: org.bitbucket.b_c:jose4j
+  description: The jose4j library is an open source implementation of JWS
+  version: 0.9.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: René Zubcevic
+  last_updated_on: 2023-11-27 13:35:49.000000000 Z
+- name: org.flywaydb:flyway-core
+  description: 'Flyway: Database Migrations Made Easy'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: René Zubcevic
+  last_updated_on: 2023-11-27 13:35:49.000000000 Z
+- name: org.hsqldb:hsqldb
+  description: HSQLDB - Lightweight 100% Java SQL Database Engine
+  license: Zed,TMate
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: René Zubcevic
+  last_updated_on: 2023-11-27 13:35:49.000000000 Z
+- name: org.jsoup:jsoup
+  description: Jsoup is a Java library for working with real-world HTML
+  version: 1.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-09 13:51:32.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: René Zubcevic
+  last_updated_on: 2023-11-27 13:35:49.000000000 Z
+- name: org.springframework.boot:spring-boot-properties-migrator
+  description: Spring Boot Properties Migrator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-05 13:04:09.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-05 13:04:09.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-05 13:04:09.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-05 13:04:09.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-05 13:04:09.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-thymeleaf
+  description: Starter for building MVC web applications using Thymeleaf views
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-05 13:04:09.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-validation
+  description: Starter for using Java Bean Validation with Hibernate Validator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-05 13:04:09.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-05 13:04:09.000000000 Z
+- name: org.springframework.security:spring-security-test
+  description: Spring-security-test
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: René Zubcevic
+  last_updated_on: 2023-11-27 13:35:49.000000000 Z
+- name: org.webjars:bootstrap
+  description: WebJar for Bootstrap
+  version: 5.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-05 13:04:09.000000000 Z
+- name: org.webjars:jquery
+  description: WebJar for jQuery
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: René Zubcevic
+  last_updated_on: 2023-11-27 13:35:49.000000000 Z
+- name: xml-resolver:xml-resolver
+  description: Xml-commons provides an Apache-hosted set of DOM, SAX, and JAXP interfaces
+    for use in other xml-based projects
+  version: '1.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ishani02/WebGoat/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Nanne Baars
+  last_updated_on: 2023-01-04 07:07:23.000000000 Z
